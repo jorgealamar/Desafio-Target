@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1e9da;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  border-top: 1px solid #191919;
+}
+
+h1,
+h2,
+ul,
+ol {
+  color: #2e294e;
+  margin: 1rem;
+  list-style: none;
+}
+
+#question1 {
+  background: #ddd;
+  border: 1px solid red;
+  display: inline-block;
+}
+
+#solution {
+  background: #00c3ff;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+span {
+  color: #d90368;
+  font-weight: bold;
+}
+
+input {
+  margin: 1rem;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #2e294e;
+  color: #ddd;
+  font-weight: bold;
+  margin: 0 auto;
+  cursor: pointer;
+  display: block;
+}
+
